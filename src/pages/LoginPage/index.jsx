@@ -27,7 +27,7 @@ const LoginPage = () =>{
             <p>{String(authenticated)}</p>
             <form  className="form" onSubmit={handleSubmit}>
                 <div className="field">
-                    <label htmlFor="EMail">Email</label>
+                    <label htmlFor="email">Email</label>
                     <input 
                     type="email" 
                     name='email' 

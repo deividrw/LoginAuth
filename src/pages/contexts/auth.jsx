@@ -29,7 +29,6 @@ export const AuthProvider = ({children}) => {
         }
 
         localStorage.setItem('user', JSON.stringify(loggedUser))
-
         if( password === 'secret'){
             setUser(loggedUser)
             navigate('/')
